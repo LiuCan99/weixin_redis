@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7bea7b9b-8a65-4ab2-a5b3-c892c30114bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/WXApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/redis/cofig/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/redis/cofig/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/redis/cofig/ResultModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/redis/login/LoginConroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/redis/login/LoginMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/redis/login/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/redis/login/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/redis/login/Ruser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/GetQrCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/GetUserInfoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/WeixinServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/button/AbstractButt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/button/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/button/ClickButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/button/PhotoOrAlbumButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/button/SubButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/button/ViewButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/message/AccessToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/message/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/message/BaseMassage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/message/ImageMassage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/message/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/message/MusicMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/message/NewsMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/message/TextMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/message/VideoMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/message/VoiceMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/template/IndustryInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/template/TemplateData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/domain/template/WxTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/manager/TemplateMessageManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/service/EventPushService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/service/MessageHandleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/service/WeiXinService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/util/ChatRobotUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/util/CreateMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/util/DeleteMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/util/IndustryInfoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/util/TemplateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/util/TulingApiUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/test/util/WeiXinParameterUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/user_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/wx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/redis/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wx/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wx/TestButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wx/TestChatRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wx/TestGetUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wx/TestImge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wx/TestIndustryInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wx/TestQrCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wx/TestTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wx/TestUploadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wx/TestWxMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/WXApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redis/cofig/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redis/cofig/ResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redis/cofig/ResultModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redis/login/LoginConroller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redis/login/LoginMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redis/login/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redis/login/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redis/login/Ruser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/GetQrCodeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/GetUserInfoServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/WeixinServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/button/AbstractButt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/button/Button.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/button/ClickButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/button/PhotoOrAlbumButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/button/SubButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/button/ViewButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/message/AccessToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/message/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/message/BaseMassage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/message/ImageMassage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/message/Music.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/message/MusicMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/message/NewsMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/message/TextMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/message/VideoMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/message/VoiceMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/template/IndustryInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/template/TemplateData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/domain/template/WxTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/manager/TemplateMessageManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/service/EventPushService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/service/MessageHandleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/service/WeiXinService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/util/ChatRobotUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/util/CreateMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/util/DeleteMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/util/IndustryInfoUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/util/TemplateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/util/TulingApiUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/util/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixin/test/util/WeiXinParameterUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/user/user_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/wx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/redis/RedisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wx/TestBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wx/TestButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wx/TestChatRobot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wx/TestGetUserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wx/TestImge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wx/TestIndustryInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wx/TestQrCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wx/TestTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wx/TestUploadFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wx/TestWxMessage.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="223" selection-start-line="223" selection-end-line="223" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="liucan" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/maven/apache-maven-3.3.9-bin/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="weixin_redis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="weixin_redis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-13" />
+    <option name="width" value="1380" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="weixin_redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixin_redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixin_redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixin_redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590561297654" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="WXApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="weixin_redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.WXApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bea7b9b-8a65-4ab2-a5b3-c892c30114bf" name="Default Changelist" comment="" />
+      <created>1590550461202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590550461202</updated>
+      <workItem from="1590550466523" duration="4082000" />
+    </task>
+    <task id="LOCAL-00001" summary="微信demo">
+      <created>1590550942927</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590550942927</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4082000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.42320818" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32879046" />
+      <window_info anchor="bottom" id="SonarLint" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.60580206" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4616695" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" weight="0.32978722" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="CDI" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="微信demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="微信demo" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="223" selection-start-line="223" selection-end-line="223" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
